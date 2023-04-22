@@ -165,7 +165,12 @@ namespace DataTypes
                              + stringDataType.ToString()
                              + longDataType.ToString();
 
-
+            /*
+              Not:
+              string tipində sən birbaşa saxlaya bilmirsən. intDataType'ı ToString method'u ilə öncə string'ə çevirib
+              elə saxlamış olursan. Nəticədə intDataType adlı dəyişənin tipi çevrilib saxlanılır myString'də. Burada
+              string myString = intDataType; olmuş olsaydı qəbul olunardı.
+             */
 
 
             #endregion
