@@ -23,7 +23,7 @@ namespace Homework3
             var cityNine = Console.ReadLine();
             var cityTen = Console.ReadLine();
 
-            Console.Write(cityOne + "," + cityTwo + "," + cityThree + "," + cityFour + "," + cityFive + "," +
+            Console.Write(cityOne + ", " + cityTwo + "," + cityThree + "," + cityFour + "," + cityFive + "," +
                  citySix + "," + citySeven + "," + cityEight + "," + cityNine + "," + cityTen);
 
 
