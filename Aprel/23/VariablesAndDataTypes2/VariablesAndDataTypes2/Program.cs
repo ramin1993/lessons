@@ -11,95 +11,94 @@ namespace VariablesAndDataTypes2
         static void Main(string[] args)
         {
             #region Homework1           
-            //Implicit convention
-            int intDataT = 20;
-            float implicitFloat = intDataT;
+            ////Implicit convention
+            //int intDataT = 20;
+            //float implicitFloat = intDataT;
 
-            byte byteDataT = 250;
-            int implicitByte = byteDataT;
+            //byte byteDataT = 250;
+            //int implicitByte = byteDataT;
 
-            short shortDataT = 100;
-            long implicitShort = shortDataT;
+            //short shortDataT = 100;
+            //long implicitShort = shortDataT;
 
-            char charDataT = 'A';//Unicode value reqem oldugu ucun long tipine implicit etmek mumkundur.
-            long implicitChar = charDataT;
+            //char charDataT = 'A';//Unicode value reqem oldugu ucun long tipine implicit etmek mumkundur.
+            //long implicitChar = charDataT;
 
-            float floatDataT = 223.44f;
-            double implicitDouble = floatDataT;
+            //float floatDataT = 223.44f;
+            //double implicitDouble = floatDataT;
 
 
-            //Explicit Convention
-            byte byteDataTNext = 233;
-            sbyte explicitSbyte = (sbyte)byteDataTNext;
+            ////Explicit Convention
+            //byte byteDataTNext = 233;
+            //sbyte explicitSbyte = (sbyte)byteDataTNext;
 
-            float floatDataTNext = 74832;
-            int explicitInt = (int)floatDataTNext;
+            //float floatDataTNext = 74832;
+            //int explicitInt = (int)floatDataTNext;
 
-            char charDataTNext = 's';
-            string explicitStr = charDataTNext.ToString();
+            //char charDataTNext = 's';
+            //string explicitStr = charDataTNext.ToString();
 
-            bool boolDataT = true;
-            string explicitStrNext = boolDataT.ToString();
+            //bool boolDataT = true;
+            //string explicitStrNext = boolDataT.ToString();
 
-            long longDataT = 400223334441103;
-            int explicitIntNextOne = (int)longDataT;
+            //long longDataT = 400223334441103;
+            //int explicitIntNextOne = (int)longDataT;
 
-            //Helper Class Conversion
+            ////Helper Class Conversion
 
-            string stringToInt = "4566";
-            int inInt = Convert.ToInt32(stringToInt);
+            //string stringToInt = "4566";
+            //int inInt = Convert.ToInt32(stringToInt);
 
-            bool boolToString = true;
-            string inString = Convert.ToString(boolToString);
-            sbyte sbyteToSbyte = Convert.ToSByte("20");
-            DateTime toDateTime = Convert.ToDateTime("2012.12.12");
-            ulong toUlong = Convert.ToUInt64("921392312");
+            //bool boolToString = true;
+            //string inString = Convert.ToString(boolToString);
+            //sbyte sbyteToSbyte = Convert.ToSByte("20");
+            //DateTime toDateTime = Convert.ToDateTime("2012.12.12");
+            //ulong toUlong = Convert.ToUInt64("921392312");
 
             #endregion
 
             #region Homework2
-            // Bir dənə anket proqramı yığacaqsınız.İstifadəçidən onun haqqında məlumatları toplayacaqsınız.Bu məlumatlar ad, soyad, cins, doğum tarixi,
-            // yaşadığı ölkə, yaşadığı şəhər, boy, çəki, maaş olacaq.Siz bu məlumatları saxlamaq üçün doğru bir data type seçməlisiniz.
+            //// Bir dənə anket proqramı yığacaqsınız.İstifadəçidən onun haqqında məlumatları toplayacaqsınız.Bu məlumatlar ad, soyad, cins, doğum tarixi,
+            //// yaşadığı ölkə, yaşadığı şəhər, boy, çəki, maaş olacaq.Siz bu məlumatları saxlamaq üçün doğru bir data type seçməlisiniz.
 
-            Console.OutputEncoding = Encoding.Unicode;
-            Console.InputEncoding = Encoding.Unicode;
+            //Console.OutputEncoding = Encoding.Unicode;
+            //Console.InputEncoding = Encoding.Unicode;
 
 
-            object name = "Ramin";
-            Console.Write("Ad : " + " " + name);
-            Console.ReadLine();
+            //Console.Write("Adinizi daxil edin : ");
+            //string name = Console.ReadLine();
 
-            object surname = "Süleymanov";
-            Console.Write("Soyad : " + " " + surname);
-            Console.ReadLine();
+            //Console.Write("Soyad daxil edin : ");
+            //string surname = Console.ReadLine();
 
-            object gender = 'K';
-            Console.Write("Cins K/Q: " + " " + gender);
-            Console.ReadLine();
+            //Console.Write("Cins K/Q: ");
+            //char gender = Convert.ToChar(Console.ReadLine());
 
-            object dateT = new DateTime(1993, 03, 26);
-            Console.Write("Doğum tarixi :" + " " + dateT);
-            Console.ReadLine();
 
-            object country = "Azərbaycan";
-            Console.Write("Yasadığı ölkə:" + " " + country);
-            Console.ReadLine();
+            //Console.Write("Doğum tarixi (yyyy,mm,dd):");
+            //DateTime dateT = Convert.ToDateTime(Console.ReadLine());
+            
 
-            object city = "Bakı";
-            Console.Write("Yaşadığı şəhər:" + " " + city);
-            Console.ReadLine();
+            //Console.Write("Yasadığı ölkə:");
+            //string country = Console.ReadLine();
 
-            object height = 181.7;
-            Console.Write("Boy:" + " " + height);
-            Console.ReadLine();
 
-            object weight = 77.8;
-            Console.Write("çəki:" + " " + weight);
-            Console.ReadLine();
+            //Console.Write("Yaşadığı şəhər:");
+            //string city = Console.ReadLine();
 
-            object salary = "2500.00";
-            Console.Write("Maaş:" + " " + salary);
-            Console.ReadLine();
+
+            //Console.Write("Boy:");
+            //double height = Convert.ToDouble(Console.ReadLine());
+            
+            
+
+            //Console.Write("çəki:");
+            //double Weight = Convert.ToDouble(Console.ReadLine());
+            
+
+            //;
+            //Console.Write("Maaş:");
+            //decimal salary = Convert.ToDecimal(Console.ReadLine());
 
 
 
@@ -113,42 +112,34 @@ namespace VariablesAndDataTypes2
 
 
             Console.WriteLine("Yaş:");
-            Console.ReadLine();
-            byte userAge = 32;
-            int userAgeConvertToInt = Convert.ToInt16(userAge);
-            byte userAgeCastToByte = (byte)userAgeConvertToInt;
 
-
+            int userAgeConvertToInt = Convert.ToInt16(Console.ReadLine());
+            
             Console.WriteLine("Maaş:");
-            Console.ReadLine();
-            float userSalary = 550.50f;
-            int userSalaryConvertInt = Convert.ToInt32(userSalary);
-            byte userSalaryCastToByte = (byte)userSalaryConvertInt;
+            int userSalaryConvertInt = Convert.ToInt32(Console.ReadLine());
+            
+            checked
+            {
+                byte userAgeCastToByte = (byte)userAgeConvertToInt;
+                byte userSalaryCastToByte = (byte)userSalaryConvertInt;
+            }
 
 
             Console.WriteLine("Boy:");
-            Console.ReadLine();
-            float userHeight = 177.8f;
-            int userHeightConvertInt = Convert.ToInt32(userHeight);
+            int userHeightConvertInt = Convert.ToInt32(Console.ReadLine());
             byte userHeightCastToByte = (byte)userHeightConvertInt;
-            double dblNoErrorHeight = userHeightCastToByte;
+            
 
 
             Console.WriteLine("Çəki :");
-            Console.ReadLine();
-            float userWeight = 87.3f;
-            int userWeightConvertToInt = Convert.ToInt16(userHeight);
+            int userWeightConvertToInt = Convert.ToInt16(Console.ReadLine());
             byte userWeightCastToByte = (byte)userWeightConvertToInt;
-            double dblNoErrorWeight = userWeightCastToByte;
+            
+
             Console.WriteLine("Neçə dostunuz var ? :");
-            Console.ReadLine();
-
-
-            byte userFriends = 7;
-            int userFriendsConvertToInt = Convert.ToInt16(userFriends);
+            int userFriendsConvertToInt = Convert.ToInt16(Console.ReadLine());
             byte userFriendsCastToByte = (byte)userFriendsConvertToInt;
-            double dblNoErrorFriends = userFriendsCastToByte;
-
+         
             Console.ReadLine();
 
 
