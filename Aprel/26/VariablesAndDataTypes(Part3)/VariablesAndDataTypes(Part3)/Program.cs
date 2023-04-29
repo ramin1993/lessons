@@ -10,7 +10,7 @@ namespace VariablesAndDataTypes_Part3_
     {
         static void Main(string[] args)
         {
-            //1-ci tapşırıq səhvdir. Açıqlama yazmışam oxu pls.
+            //1-ci tapşırıq səhvdir. Açıqlama yazmışam oxu pls.(Deyesen Duzeltdim:))
             #region Homework1
             /*İstifadəçidən 2 dənə ayrı dəyər alın(rəqəm).
               Məsələn birincidə istifadəçi 20 daxil etdi onu a dəyişənində saxlayın. 
@@ -19,14 +19,21 @@ namespace VariablesAndDataTypes_Part3_
               Yəni a 20, b 50 - dirsə elə edin ki, a olsun 50, b olsun 20.*/
 
 
+            
             Console.Write("1 ci reqem daxil edin :");
             string a = Console.ReadLine();
 
             Console.Write("2 ci reqem daxil edin :");
             string b = Console.ReadLine();
 
-            int getb = int.Parse(b.ToString());
-            int geta = int.Parse(a.ToString());
+            int convertInta = Convert.ToInt32(b);
+            int convertIntb = Convert.ToInt32(a);
+
+            Console.Write("1 ci reqem :" + b);
+            Console.ReadLine();
+
+            Console.Write("2 ci reqem :" + a);
+            Console.ReadLine();
 
             /*
              Səhvdir. Yuxarıda string a əgər 20 olarsa və string b 50 olarsa (olarsa dedikdə yəni user daxil edərsə)
@@ -121,7 +128,7 @@ namespace VariablesAndDataTypes_Part3_
 
             #endregion
 
-            //3-cü tapşırıq 95% düzdür ancaq daha yaxşı yazıla bilərdi.
+            //3-cü tapşırıq 95% düzdür ancaq daha yaxşı yazıla bilərdi.(Duzeltdim)
             #region Homework3
             // İstifadəçidən 10 dənə fərqli rəqəm alıb bir dəyişəndə toplayın.
             //Bu taskı da çıxma, vurma və bölmə üçün də edin.Çıxmada və toplama əməliyyatlarında 10 - cu dəyər daxil
@@ -130,39 +137,39 @@ namespace VariablesAndDataTypes_Part3_
 
             ////Toplama Emeliyyati(+1)
             Console.Write("1ci reqem daxil edin :");
-            int firstNumPlus = int.Parse(Console.ReadLine());
+            int firstNumPlus = Int32.Parse(Console.ReadLine());
 
             Console.Write("2 ci reqem daxil edin :");
-            int secondNumPlus = int.Parse(Console.ReadLine());
+            int secondNumPlus = Int32.Parse(Console.ReadLine());
 
             Console.Write("3 cu reqem daxil edin :");
-            int thirdNumPlus = int.Parse(Console.ReadLine());
+            int thirdNumPlus = Int32.Parse(Console.ReadLine());
             
             Console.Write("4 cu reqem daxil edin :");
-            int fourthNumPlus = int.Parse(Console.ReadLine());
+            int fourthNumPlus = Int32.Parse(Console.ReadLine());
 
             Console.Write("5 ci reqem daxil edin :");
-            int fifthNumPlus = int.Parse(Console.ReadLine());
+            int fifthNumPlus = Int32.Parse(Console.ReadLine());
 
             Console.Write("6 ci reqem daxil edin :");
-            int sixthNumPlus = int.Parse(Console.ReadLine());
+            int sixthNumPlus = Int32.Parse(Console.ReadLine());
 
             Console.Write("7 ci reqem daxil edin :");
-            int seventhNumPlus = int.Parse(Console.ReadLine());
+            int seventhNumPlus = Int32.Parse(Console.ReadLine());
 
             Console.Write("8 ci reqem daxil edin :");
-            int eighthNumPlus = int.Parse(Console.ReadLine());
+            int eighthNumPlus = Int32.Parse(Console.ReadLine());
 
             Console.Write("9 cu reqem daxil edin :");
-            int ninethNumPlus = int.Parse(Console.ReadLine());
+            int ninethNumPlus = Int32.Parse(Console.ReadLine());
 
             Console.Write("10 cu reqem daxil edin :");
-            int tenthNumPlus = int.Parse(Console.ReadLine());
+            int tenthNumPlus = Int32.Parse(Console.ReadLine());
 
             int sumPlusResult = firstNumPlus + secondNumPlus + thirdNumPlus + fourthNumPlus +
                        fifthNumPlus + sixthNumPlus + seventhNumPlus +
-                       eighthNumPlus + ninethNumPlus + ninethNumPlus + 5;
-            //bir toplayıb bir çıxmalısan
+                       eighthNumPlus + ninethNumPlus + ninethNumPlus + 1;
+            //bir toplayıb bir çıxmalısan=(Duzeltdim)
 
             Console.WriteLine(sumPlusResult);
             Console.ReadLine();
@@ -170,34 +177,34 @@ namespace VariablesAndDataTypes_Part3_
             //Cixma emeliyyati(-1)
 
             Console.Write("1 ci reqem daxil edin :");
-            int firstNumMinus = int.Parse(Console.ReadLine());
+            int firstNumMinus = Int32.Parse(Console.ReadLine());
 
             Console.Write("2 ci reqem daxil edin :");
-            int secondNumMinus = int.Parse(Console.ReadLine());
+            int secondNumMinus = Int32.Parse(Console.ReadLine());
 
             Console.Write("3 cu reqem daxil edin :");
-            int thirdNumMinus = int.Parse(Console.ReadLine());
+            int thirdNumMinus = Int32.Parse(Console.ReadLine());
 
             Console.Write("4 cu reqem daxil edin :");
-            int forthNumMinus = int.Parse(Console.ReadLine());
+            int forthNumMinus = Int32.Parse(Console.ReadLine());
 
             Console.Write("5 ci reqem daxil edin :");
-            int fifthNumMinus = int.Parse(Console.ReadLine());
+            int fifthNumMinus = Int32.Parse(Console.ReadLine());
 
             Console.Write("6 ci reqem daxil edin :");
-            int sixthNumMinus = int.Parse(Console.ReadLine());
+            int sixthNumMinus = Int32.Parse(Console.ReadLine());
 
             Console.Write("7 ci reqem daxil edin: ");
-            int seventhNumMinus = int.Parse(Console.ReadLine());
+            int seventhNumMinus = Int32.Parse(Console.ReadLine());
 
             Console.Write("8 ci reqem daxil edin: ");
-            int eighthNumMinus = int.Parse(Console.ReadLine());
+            int eighthNumMinus = Int32.Parse(Console.ReadLine());
 
             Console.Write("9 cu reqem daxil edin: ");
-            int ninethNumMinus = int.Parse(Console.ReadLine());
+            int ninethNumMinus = Int32.Parse(Console.ReadLine());
 
             Console.Write("10 cu reqem daxil edin: ");
-            int tenthNumMinus = int.Parse(Console.ReadLine());
+            int tenthNumMinus = Int32.Parse(Console.ReadLine());
 
             int sumMinusResult = firstNumMinus - secondNumMinus - thirdNumMinus -
                                  forthNumMinus - fifthNumMinus - sixthNumMinus -
