@@ -10,6 +10,7 @@ namespace VariablesAndDataTypes_Part3_
     {
         static void Main(string[] args)
         {
+            //1-ci tapşırıq səhvdir. Açıqlama yazmışam oxu pls.
             #region Homework1
             /*İstifadəçidən 2 dənə ayrı dəyər alın(rəqəm).
               Məsələn birincidə istifadəçi 20 daxil etdi onu a dəyişənində saxlayın. 
@@ -27,8 +28,24 @@ namespace VariablesAndDataTypes_Part3_
             int getb = int.Parse(b.ToString());
             int geta = int.Parse(a.ToString());
 
+            /*
+             Səhvdir. Yuxarıda string a əgər 20 olarsa və string b 50 olarsa (olarsa dedikdə yəni user daxil edərsə)
+             Sən indi elə etməlisən ki, a və b-nin dəyərlərini istifadəçidən alandan sonra b-nin saxladığı 50 rəqəmi
+             a dəyişəninə keçsin, a-nın saxladığı 20 rəqəmi isə b dəyişəninə keçsin. Bir sözlə a və b dəyişənlərinin
+             dəyərlərinin yerlərini dəyişdirməlisən. getB-də b-ni, getA-da isə a-nın dəyərini saxlamaqla yer dəyişmə sayılmır.
+             Konkret a dəyişəninin dəyəri b-yə, b-nin də saxladığı dəyər a-ya ötürülməlidir. Aşağıda nümunə yazıram
+             string a = Console.ReadLine(); ---- a burada 20-dir
+             string b = Console.ReadLine(); ---- b burada 50-dir
+
+             bu hissəni sən fikirləşib yazmalısan
+
+             burada b 20 olmalıdır
+             burada a 50 olmalıdır.
+             */
+
             #endregion
 
+            //2-ci tapşırıq düzdür
             #region Homework2
             //İstifadəçidən 3 ayrı sətirdə 3 ayrı rəqəm alın.
             // İstifadəçi 3 - cü rəqəmi daxil etdikdən sonra ekrana belə bir yazı yazdırın Nəticə: 5 + 5 + 10 = 20.Bunu
@@ -104,6 +121,7 @@ namespace VariablesAndDataTypes_Part3_
 
             #endregion
 
+            //3-cü tapşırıq 95% düzdür ancaq daha yaxşı yazıla bilərdi.
             #region Homework3
             // İstifadəçidən 10 dənə fərqli rəqəm alıb bir dəyişəndə toplayın.
             //Bu taskı da çıxma, vurma və bölmə üçün də edin.Çıxmada və toplama əməliyyatlarında 10 - cu dəyər daxil
@@ -119,7 +137,7 @@ namespace VariablesAndDataTypes_Part3_
 
             Console.Write("3 cu reqem daxil edin :");
             int thirdNumPlus = int.Parse(Console.ReadLine());
-            ]
+            
             Console.Write("4 cu reqem daxil edin :");
             int fourthNumPlus = int.Parse(Console.ReadLine());
 
@@ -144,7 +162,7 @@ namespace VariablesAndDataTypes_Part3_
             int sumPlusResult = firstNumPlus + secondNumPlus + thirdNumPlus + fourthNumPlus +
                        fifthNumPlus + sixthNumPlus + seventhNumPlus +
                        eighthNumPlus + ninethNumPlus + ninethNumPlus + 5;
-
+            //bir toplayıb bir çıxmalısan
 
             Console.WriteLine(sumPlusResult);
             Console.ReadLine();
@@ -272,6 +290,7 @@ namespace VariablesAndDataTypes_Part3_
 
             #endregion
 
+            //4-cü tapşırıq düzdür
             #region Homework4
             //İstifadəçidən qeyd etdiyim tiplərdə dəyər alıb onları uyğun tipdə dəyişənlərə çevirəcəksiz.
             // bool, string, short, long, int, char, datetime.
