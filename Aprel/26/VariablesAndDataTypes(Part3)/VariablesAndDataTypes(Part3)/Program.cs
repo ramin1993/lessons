@@ -19,21 +19,32 @@ namespace VariablesAndDataTypes_Part3_
               Yəni a 20, b 50 - dirsə elə edin ki, a olsun 50, b olsun 20.*/
 
 
-            
-            Console.Write("1 ci reqem daxil edin :");
-            string a = Console.ReadLine();
 
-            Console.Write("2 ci reqem daxil edin :");
-            string b = Console.ReadLine();
+            //Console.Write("1 ci reqem daxil edin :");
+            //string a = Console.ReadLine();
 
-            int convertInta = Convert.ToInt32(b);
-            int convertIntb = Convert.ToInt32(a);
+            //Console.Write("2 ci reqem daxil edin :");
+            //string b = Console.ReadLine();
 
-            Console.Write("1 ci reqem :" + b);
-            Console.ReadLine();
+            //int convertInta = Convert.ToInt32(b);
+            //int convertIntb = Convert.ToInt32(a);
 
-            Console.Write("2 ci reqem :" + a);
-            Console.ReadLine();
+            //Console.Write("1 ci reqem :" + b);
+            //Console.ReadLine();
+
+            //Console.Write("2 ci reqem :" + a);
+            //Console.ReadLine();
+
+
+            Console.WriteLine("Birinci reqemi daxil edin: ");
+            int a = int.Parse(Console.ReadLine()); //20
+
+            Console.WriteLine("Ikinci reqemi daxil edin: ");
+            int   b = int.Parse(Console.ReadLine()); //50
+            int c;
+            c = a;
+            a = b;
+            b = c;
 
             /*
              Səhvdir. Yuxarıda string a əgər 20 olarsa və string b 50 olarsa (olarsa dedikdə yəni user daxil edərsə)

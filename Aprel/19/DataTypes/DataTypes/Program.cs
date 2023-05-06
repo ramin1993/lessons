@@ -152,11 +152,6 @@ namespace DataTypes
             char charDataType = 'R';
             string stringDataType = "Ramin";
             long longDataType = 1245;
-            var multiDataTypes = intDataType + " "
-                                 + boolDataType + " "
-                                 + charDataType + " "
-                                 + stringDataType + " "
-                                 + longDataType;
 
 
             string myString = intDataType.ToString()
