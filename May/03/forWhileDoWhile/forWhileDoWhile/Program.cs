@@ -74,63 +74,59 @@ namespace forWhileDoWhile
 
             //Düzdür
             #region Homework3           
-            ///* App'ın işləmə prinsipi:
-            //İlk öncə istifadəçidən "Texmin oyunu ucun en yuksek deyeri daxil edin: " yazısı ilə bir rəqəm
-            //alınmalıdır.Sonra 1 ilə bu rəqəm arasında random bir rəqəm generate edilməlidir və 
-            //istifadəçidən generate olunan rəqəmi tapmağı istənməlidir. 
-            //"1. Cəhdiniz! Zəhmət olmasa rəqəmi təxmin edin: " mesajı ilə istifadəçidən bir rəqəm soruşulur. 
-            //Hər səhv daxil edilən rəqəmdə eyni şey təkrar göstərilir.Sadəcə 2. 3. 4.deyə artır cəhd sayı.
-            //İstifadəçi düzgün rəqəmi tapdığı zaman "5. Cəhdinizdə düzgün rəqəmi tapdınız!" mesajı göstərilməlidir.*/
+            /////* App'ın işləmə prinsipi:
+            ////İlk öncə istifadəçidən "Texmin oyunu ucun en yuksek deyeri daxil edin: " yazısı ilə bir rəqəm
+            ////alınmalıdır.Sonra 1 ilə bu rəqəm arasında random bir rəqəm generate edilməlidir və 
+            ////istifadəçidən generate olunan rəqəmi tapmağı istənməlidir. 
+            ////"1. Cəhdiniz! Zəhmət olmasa rəqəmi təxmin edin: " mesajı ilə istifadəçidən bir rəqəm soruşulur. 
+            ////Hər səhv daxil edilən rəqəmdə eyni şey təkrar göstərilir.Sadəcə 2. 3. 4.deyə artır cəhd sayı.
+            ////İstifadəçi düzgün rəqəmi tapdığı zaman "5. Cəhdinizdə düzgün rəqəmi tapdınız!" mesajı göstərilməlidir.*/
 
-            //Console.OutputEncoding = Encoding.Unicode;
-            //Console.InputEncoding = Encoding.Unicode;
+            Console.OutputEncoding = Encoding.Unicode;
+            Console.InputEncoding = Encoding.Unicode;
 
-            ////Oyun ucun bir reqem daxil etmesini isteyirik.
-            //Console.Write("Texmin oyunu ucun en yuksek deyeri daxil edin:");
+            //Oyun ucun bir reqem daxil etmesini isteyirik.
+            Console.Write("Texmin oyunu ucun en yuksek deyeri daxil edin:");
 
-            ////Reqemi alib integer tipinde saxlayiriq
-            //int getNumb;
-            //bool checkNumb = int.TryParse(Console.ReadLine(), out getNumb);
+            //Reqemi alib integer tipinde saxlayiriq
+            int getNumb;
+            bool checkNumb = int.TryParse(Console.ReadLine(), out getNumb);
 
-            ////daxil etdiyi reqemden random bir generate edilir.
-            //Random rand = new Random();
-            //int randNumber = rand.Next(1, getNumb);
+            //daxil etdiyi reqemden random bir generate edilir.
+            Random rand = new Random();
+            int randNumber = rand.Next(1, getNumb);
 
-            ////istifadecinin duzgun bir cavab tapmasi ucun bir int deyiseni yaradiriq.
-            //int correctAnswer = 0;
+            //istifadecinin duzgun bir cavab tapmasi ucun bir int deyiseni yaradiriq.
+            int correctAnswer = 0;
 
-            ////Cehdleri saymaq ucun bir deyisen 
-            //int counter = 0;
+            //Cehdleri saymaq ucun bir deyisen 
+            int counter = 1;
 
-            ////istifadeciden bu reqemi tapmagi ucun bir dongu yaradiriq.
+            //istifadeciden bu reqemi tapmagi ucun bir dongu yaradiriq.
 
-            //do
-            //{
-            //    //cehdler zamani daxil etdiyi reqemleri int tipine cevirerek aliriq.
-            //    bool correcAnswerTrue = int.TryParse(Console.ReadLine(), out correctAnswer);
+            do
+            {
+                Console.Write(counter + "." + "Cəhdiniz! Zəhmət olmasa rəqəmi təxmin edin:", correctAnswer);
+                //cehdler zamani daxil etdiyi reqemleri int tipine cevirerek aliriq.
+                bool correcAnswerTrue = int.TryParse(Console.ReadLine(), out correctAnswer);
 
-            //    // Eger istifadecinin daxil etdiyi deyernen generetion olunmus deyer beraberdirse break etmesini isteyirem
-            //    // Diger halda davam etsin
+                // Eger istifadecinin daxil etdiyi deyernen generetion olunmus deyer beraberdirse break etmesini isteyirem
+                // Diger halda davam etsin
 
-            //    if (randNumber == correctAnswer)
-            //    {
+                if (randNumber == correctAnswer)
+                {
 
-            //        counter++;
-            //        Console.Write(counter + "." + "Cehdinizde duzgun reqem tapdiniz!");
-            //        Console.ReadLine();
-            //        break;
-            //    }
-            //    else if (correctAnswer > getNumb)
-            //    {
-            //        break;
-            //    }
-            //    else
-            //    {
-            //        counter++;
-            //        Console.Write(counter + "." + "Cəhdiniz! Zəhmət olmasa rəqəmi təxmin edin:", correctAnswer);
-
-            //    }
-            //} while (true);
+                    counter++;
+                    Console.Write(counter + "." + "Cehdinizde duzgun reqem tapdiniz!");
+                    Console.ReadLine();
+                    break;
+                }
+                else if (correctAnswer > getNumb)
+                {
+                    break;
+                }
+                counter++;
+            } while (true);
             #endregion
 
             //Düzdür, halal olsun.
@@ -159,6 +155,8 @@ namespace forWhileDoWhile
             //}
             //Console.ReadLine();
             #endregion
+
+
         }
     }
 }
