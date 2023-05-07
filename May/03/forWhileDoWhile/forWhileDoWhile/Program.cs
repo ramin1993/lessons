@@ -10,6 +10,8 @@ namespace forWhileDoWhile
     {
         static void Main(string[] args)
         {
+            //95% düz yazmısan. Sadəcə mənfi dəyər daxil etdikdən sonra toplamı göstərib bitirməlidir. Yəni təkrar toplama etməli deyil.
+            //Dəyişdirməyinə ehtiyyac yoxdur. Sadəcə əlavə funksionallıq yazmısan ))))
             #region Homework1
             //İstifadəçi mənfi dəyər daxil edənə qədər, 
             //daxil etdiyi bütün müsbət rəqəmləri toplayıb axırda nəticəni ekrana yazın.
@@ -50,33 +52,35 @@ namespace forWhileDoWhile
             //} while (true);
             #endregion
 
+            //Düzdür
             #region Homework2
-            // İstifadəçidən bir rəqəm alın. 
-            //While döngüsüylə istifadəçinin daxil etdiyi rəqəmdən 0-a doğru geriyə sayın.
+            //İstifadəçidən bir rəqəm alın. 
+            //While döngüsüylə istifadəçinin daxil etdiyi rəqəmdən 0 - a doğru geriyə sayın.
 
             //istifadeciden deyer alib deyerin integer olub olmamasini try parse methodu ile yoxlayiriq
             //int user;
             //bool dcrmt = int.TryParse(Console.ReadLine(), out user);
 
-            ////daha sonra bir while dongusu yaradib decrement edirik ve geriye sayimi edirik.
+            //daha sonra bir while dongusu yaradib decrement edirik ve geriye sayimi edirik.
             //while (dcrmt)
             //{
             //    user--;
             //    Console.Write(user);
-            //    Console.ReadLine();
             //}
+            //Console.ReadLine(); //Console.ReadLine()'i burada yazsan daha yaxşı olar ki, geri sayım tam bitəndən sonra gözləsin hər dəfə yoz.
 
 
             #endregion
 
+            //Düzdür
             #region Homework3           
-            /* App'ın işləmə prinsipi:
-            İlk öncə istifadəçidən "Texmin oyunu ucun en yuksek deyeri daxil edin: " yazısı ilə bir rəqəm
-            alınmalıdır.Sonra 1 ilə bu rəqəm arasında random bir rəqəm generate edilməlidir və 
-            istifadəçidən generate olunan rəqəmi tapmağı istənməlidir. 
-            "1. Cəhdiniz! Zəhmət olmasa rəqəmi təxmin edin: " mesajı ilə istifadəçidən bir rəqəm soruşulur. 
-            Hər səhv daxil edilən rəqəmdə eyni şey təkrar göstərilir.Sadəcə 2. 3. 4.deyə artır cəhd sayı.
-            İstifadəçi düzgün rəqəmi tapdığı zaman "5. Cəhdinizdə düzgün rəqəmi tapdınız!" mesajı göstərilməlidir.*/
+            ///* App'ın işləmə prinsipi:
+            //İlk öncə istifadəçidən "Texmin oyunu ucun en yuksek deyeri daxil edin: " yazısı ilə bir rəqəm
+            //alınmalıdır.Sonra 1 ilə bu rəqəm arasında random bir rəqəm generate edilməlidir və 
+            //istifadəçidən generate olunan rəqəmi tapmağı istənməlidir. 
+            //"1. Cəhdiniz! Zəhmət olmasa rəqəmi təxmin edin: " mesajı ilə istifadəçidən bir rəqəm soruşulur. 
+            //Hər səhv daxil edilən rəqəmdə eyni şey təkrar göstərilir.Sadəcə 2. 3. 4.deyə artır cəhd sayı.
+            //İstifadəçi düzgün rəqəmi tapdığı zaman "5. Cəhdinizdə düzgün rəqəmi tapdınız!" mesajı göstərilməlidir.*/
 
             //Console.OutputEncoding = Encoding.Unicode;
             //Console.InputEncoding = Encoding.Unicode;
@@ -105,8 +109,8 @@ namespace forWhileDoWhile
             //    //cehdler zamani daxil etdiyi reqemleri int tipine cevirerek aliriq.
             //    bool correcAnswerTrue = int.TryParse(Console.ReadLine(), out correctAnswer);
 
-            //   // Eger istifadecinin daxil etdiyi deyernen generetion olunmus deyer beraberdirse break etmesini isteyirem
-            //   // Diger halda davam etsin
+            //    // Eger istifadecinin daxil etdiyi deyernen generetion olunmus deyer beraberdirse break etmesini isteyirem
+            //    // Diger halda davam etsin
 
             //    if (randNumber == correctAnswer)
             //    {
@@ -127,11 +131,9 @@ namespace forWhileDoWhile
 
             //    }
             //} while (true);
-
-
-
             #endregion
 
+            //Düzdür, halal olsun.
             #region HomeWork4
             /*  Belə bir vurma cədvəli çıxardın ekrana. İp ucu verim,
                 Console.Write("1*2=2\t"); yazacaqsız. Orda \t sizə boşluqları
@@ -156,9 +158,6 @@ namespace forWhileDoWhile
             //    Console.WriteLine();
             //}
             //Console.ReadLine();
-
-
-
             #endregion
         }
     }
