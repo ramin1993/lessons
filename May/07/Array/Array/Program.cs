@@ -19,49 +19,50 @@ namespace Array
              doldurun. Axırda da elementlərin toplamını və ortalama dəyərini ekrana yazdırın.
              Bunu həm for döngüsüylə edin həm də foreach.
             */
-            //    Console.WriteLine("Arrayda nece element olacaq?");
-            //    int trueInt;
-            //    bool numbers = int.TryParse(Console.ReadLine(), out trueInt);
-            //    int[] arr = new int[trueInt];
-            //    int sum = 0;
-
-            //    int count = 0;
-            //    float avrg = 0.0f;
-
+            //Console.WriteLine("Arrayda nece element olacaq?");
+            //int trueInt;
+            //bool numbers = int.TryParse(Console.ReadLine(), out trueInt);
+            //int[] arr = new int[trueInt];
             //start:
-            //    for (int i = 0; i < arr.Length; i++)
+            //int sum = 0;
+
+            //int count = 0;
+            //float avrg = 0.0f;
+
+
+            //for (int i = 0; i < arr.Length; i++)
+            //{
+            //    Console.WriteLine((i + 1) + "-" + "ci elementi daxil edin.");
+            //    int setNumber;
+            //    bool checkNumber = int.TryParse(Console.ReadLine(), out setNumber);
+            //    if (checkNumber != true)
             //    {
-            //        Console.WriteLine((i + 1) + "-" + "ci elementi daxil edin.");
-            //        int setNumber;
-            //        bool checkNumber = int.TryParse(Console.ReadLine(), out setNumber);
-            //        if (checkNumber != true)
-            //        {
-            //            Console.WriteLine("Herflerden istifade etmek olmaz!");
-            //            goto start;
+            //        Console.WriteLine("Herflerden istifade etmek olmaz!");
+            //        goto start;
 
 
-            //        }
-
-            //        arr[i] = setNumber;
-            //        //sum += arr[i]; //for ile                
             //    }
 
-
-            //    foreach (var item in arr)
-            //    {
-            //        sum += item;
-            //        count++;
-            //    }
-
-            //    Console.WriteLine("Arrayda olan butun ededlerin cemi :" + " " + sum);
-
-            //    avrg = (float)sum / count;
-            //    //avrg = (float)sum / arr.Length;
+            //    arr[i] = setNumber;
+            //    //sum += arr[i]; //for ile                
+            //}
 
 
+            //foreach (var item in arr)
+            //{
+            //    sum += item;
+            //    count++;
+            //}
 
-            //    Console.WriteLine("Arrayda olan ededlerin ceminin ortalama deyeri :" + " " + avrg);
-            //    Console.ReadLine();
+            //Console.WriteLine("Arrayda olan butun ededlerin cemi :" + " " + sum);
+
+            //avrg = (float)sum / count;
+            ////avrg = (float)sum / arr.Length;
+
+
+
+            //Console.WriteLine("Arrayda olan ededlerin ceminin ortalama deyeri :" + " " + avrg);
+            //Console.ReadLine();
             #endregion
 
             #region Homework 2
@@ -71,11 +72,11 @@ namespace Array
             method'larından istifadə etmək olmaz :). Alqoritmasını özünüz düşünün.
             */
 
-            
+
             //int[] numArr = { 20, 92, 100, 55, 98, 1, 18, 26, 75, 33, 12 };
             //for (int i = 0; i < numArr.Length - 1; i++)
             //{
-            //    for (int e = 0; e < numArr.Length - i - 1; e++)
+            //    for (int e = 0; e < numArr.Length - 1; e++)
             //    {
             //        if (numArr[e] > numArr[e + 1])
             //        {
@@ -98,7 +99,7 @@ namespace Array
             */
 
             //Random rand = new Random();
-            //int[] arr= new int[100];
+            //int[] arr = new int[100];
 
             //int sum = 0;
 
@@ -120,6 +121,9 @@ namespace Array
               mütləq praktika edin!
             */
             #endregion
+
+
+
         }
     }
 }
