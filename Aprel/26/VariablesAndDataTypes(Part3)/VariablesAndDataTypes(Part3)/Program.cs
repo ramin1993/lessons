@@ -20,31 +20,20 @@ namespace VariablesAndDataTypes_Part3_
 
 
 
-            //Console.Write("1 ci reqem daxil edin :");
-            //string a = Console.ReadLine();
-
-            //Console.Write("2 ci reqem daxil edin :");
-            //string b = Console.ReadLine();
-
-            //int convertInta = Convert.ToInt32(b);
-            //int convertIntb = Convert.ToInt32(a);
-
-            //Console.Write("1 ci reqem :" + b);
-            //Console.ReadLine();
-
-            //Console.Write("2 ci reqem :" + a);
-            //Console.ReadLine();
 
 
             Console.WriteLine("Birinci reqemi daxil edin: ");
-            int a = int.Parse(Console.ReadLine()); //20
+            int a = int.Parse(Console.ReadLine()); 
 
             Console.WriteLine("Ikinci reqemi daxil edin: ");
-            int   b = int.Parse(Console.ReadLine()); //50
+            int b = int.Parse(Console.ReadLine()); 
             int c;
             c = a;
             a = b;
             b = c;
+            Console.WriteLine("Deyerler deyisdirildi:");
+            Console.WriteLine("a = " + a);
+            Console.WriteLine("b = " + b);
 
             /*
              Səhvdir. Yuxarıda string a əgər 20 olarsa və string b 50 olarsa (olarsa dedikdə yəni user daxil edərsə)
@@ -71,67 +60,67 @@ namespace VariablesAndDataTypes_Part3_
 
             //Toplama emeliyyati
 
-            Console.Write("1 ci reqem daxil edin :");
-            int firstPlus = int.Parse(Console.ReadLine());
+            //Console.Write("1 ci reqem daxil edin :");
+            //int firstPlus = int.Parse(Console.ReadLine());
 
-            Console.Write("2 ci reqem daxil edin :");
-            int secondPlus = int.Parse(Console.ReadLine());
+            //Console.Write("2 ci reqem daxil edin :");
+            //int secondPlus = int.Parse(Console.ReadLine());
 
-            Console.Write("3 ci reqem daxil edin :");
-            int ThirdPlus = int.Parse(Console.ReadLine());
+            //Console.Write("3 ci reqem daxil edin :");
+            //int ThirdPlus = int.Parse(Console.ReadLine());
 
-            int sumPlus = firstPlus + secondPlus + ThirdPlus;
+            //int sumPlus = firstPlus + secondPlus + ThirdPlus;
 
-            Console.Write(sumPlus);
-            Console.ReadLine();
+            //Console.Write(sumPlus);
+            //Console.ReadLine();
 
-            //Bolme emeliyyati
+            ////Bolme emeliyyati
 
-            Console.Write("1 ci reqemi daxil edin :");
-            double firstDivide = double.Parse(Console.ReadLine());
+            //Console.Write("1 ci reqemi daxil edin :");
+            //double firstDivide = double.Parse(Console.ReadLine());
 
-            Console.Write("2 ci reqemi daxil edin :");
-            double secondDivide = double.Parse(Console.ReadLine());
+            //Console.Write("2 ci reqemi daxil edin :");
+            //double secondDivide = double.Parse(Console.ReadLine());
 
-            Console.Write("3 cu reqemi daxil edin :");
-            double thirdDvide = double.Parse(Console.ReadLine());
+            //Console.Write("3 cu reqemi daxil edin :");
+            //double thirdDvide = double.Parse(Console.ReadLine());
 
-            double sumDivide = firstDivide / secondDivide / thirdDvide;
-            Console.Write(sumDivide);
-            Console.ReadLine();
-
-
-            //Cixma Emeliyyati
-
-            Console.Write("1 ci reqemi daxil edin :");
-            int firstMinus = int.Parse(Console.ReadLine());
-
-            Console.Write("2 ci reqemi daxil edin :");
-            int secondMinus = int.Parse(Console.ReadLine());
-
-            Console.Write("3 cu reqemi daxil edin :");
-            int thirdMinus = int.Parse(Console.ReadLine());
-
-            int sumMinus = firstMinus - secondMinus - thirdMinus;
-
-            Console.WriteLine(sumMinus);
-            Console.ReadLine();
-
-            //Vurma Emeliyyati
-
-            Console.Write("1 ci reqemi daxil edin :");
-            int firstMulti = int.Parse(Console.ReadLine());
-
-            Console.Write("2 ci reqemi daxil edin :");
-            int secondMulti = int.Parse(Console.ReadLine());
-
-            Console.Write("3 cu reqemi daxil edin :");
-            int thirdMulti = int.Parse(Console.ReadLine());
+            //double sumDivide = firstDivide / secondDivide / thirdDvide;
+            //Console.Write(sumDivide);
+            //Console.ReadLine();
 
 
-            int sumMulti = firstMulti * secondMulti * thirdMulti;
-            Console.WriteLine(sumMulti);
-            Console.ReadLine();
+            ////Cixma Emeliyyati
+
+            //Console.Write("1 ci reqemi daxil edin :");
+            //int firstMinus = int.Parse(Console.ReadLine());
+
+            //Console.Write("2 ci reqemi daxil edin :");
+            //int secondMinus = int.Parse(Console.ReadLine());
+
+            //Console.Write("3 cu reqemi daxil edin :");
+            //int thirdMinus = int.Parse(Console.ReadLine());
+
+            //int sumMinus = firstMinus - secondMinus - thirdMinus;
+
+            //Console.WriteLine(sumMinus);
+            //Console.ReadLine();
+
+            ////Vurma Emeliyyati
+
+            //Console.Write("1 ci reqemi daxil edin :");
+            //int firstMulti = int.Parse(Console.ReadLine());
+
+            //Console.Write("2 ci reqemi daxil edin :");
+            //int secondMulti = int.Parse(Console.ReadLine());
+
+            //Console.Write("3 cu reqemi daxil edin :");
+            //int thirdMulti = int.Parse(Console.ReadLine());
+
+
+            //int sumMulti = firstMulti * secondMulti * thirdMulti;
+            //Console.WriteLine(sumMulti);
+            //Console.ReadLine();
 
 
 
@@ -147,163 +136,163 @@ namespace VariablesAndDataTypes_Part3_
             //Vurmada bölmədə isə, alınan nəticəni 20'ə vurun və ya bölün.
 
             ////Toplama Emeliyyati(+1)
-            Console.Write("1ci reqem daxil edin :");
-            int firstNumPlus = Int32.Parse(Console.ReadLine());
+            //Console.Write("1ci reqem daxil edin :");
+            //int firstNumPlus = Int32.Parse(Console.ReadLine());
 
-            Console.Write("2 ci reqem daxil edin :");
-            int secondNumPlus = Int32.Parse(Console.ReadLine());
+            //Console.Write("2 ci reqem daxil edin :");
+            //int secondNumPlus = Int32.Parse(Console.ReadLine());
 
-            Console.Write("3 cu reqem daxil edin :");
-            int thirdNumPlus = Int32.Parse(Console.ReadLine());
-            
-            Console.Write("4 cu reqem daxil edin :");
-            int fourthNumPlus = Int32.Parse(Console.ReadLine());
+            //Console.Write("3 cu reqem daxil edin :");
+            //int thirdNumPlus = Int32.Parse(Console.ReadLine());
 
-            Console.Write("5 ci reqem daxil edin :");
-            int fifthNumPlus = Int32.Parse(Console.ReadLine());
+            //Console.Write("4 cu reqem daxil edin :");
+            //int fourthNumPlus = Int32.Parse(Console.ReadLine());
 
-            Console.Write("6 ci reqem daxil edin :");
-            int sixthNumPlus = Int32.Parse(Console.ReadLine());
+            //Console.Write("5 ci reqem daxil edin :");
+            //int fifthNumPlus = Int32.Parse(Console.ReadLine());
 
-            Console.Write("7 ci reqem daxil edin :");
-            int seventhNumPlus = Int32.Parse(Console.ReadLine());
+            //Console.Write("6 ci reqem daxil edin :");
+            //int sixthNumPlus = Int32.Parse(Console.ReadLine());
 
-            Console.Write("8 ci reqem daxil edin :");
-            int eighthNumPlus = Int32.Parse(Console.ReadLine());
+            //Console.Write("7 ci reqem daxil edin :");
+            //int seventhNumPlus = Int32.Parse(Console.ReadLine());
 
-            Console.Write("9 cu reqem daxil edin :");
-            int ninethNumPlus = Int32.Parse(Console.ReadLine());
+            //Console.Write("8 ci reqem daxil edin :");
+            //int eighthNumPlus = Int32.Parse(Console.ReadLine());
 
-            Console.Write("10 cu reqem daxil edin :");
-            int tenthNumPlus = Int32.Parse(Console.ReadLine());
+            //Console.Write("9 cu reqem daxil edin :");
+            //int ninethNumPlus = Int32.Parse(Console.ReadLine());
 
-            int sumPlusResult = firstNumPlus + secondNumPlus + thirdNumPlus + fourthNumPlus +
-                       fifthNumPlus + sixthNumPlus + seventhNumPlus +
-                       eighthNumPlus + ninethNumPlus + ninethNumPlus + 1;
-            //bir toplayıb bir çıxmalısan=(Duzeltdim)
+            //Console.Write("10 cu reqem daxil edin :");
+            //int tenthNumPlus = Int32.Parse(Console.ReadLine());
 
-            Console.WriteLine(sumPlusResult);
-            Console.ReadLine();
+            //int sumPlusResult = firstNumPlus + secondNumPlus + thirdNumPlus + fourthNumPlus +
+            //           fifthNumPlus + sixthNumPlus + seventhNumPlus +
+            //           eighthNumPlus + ninethNumPlus + ninethNumPlus + 1;
+            ////bir toplayıb bir çıxmalısan=(Duzeltdim)
 
-            //Cixma emeliyyati(-1)
+            //Console.WriteLine(sumPlusResult);
+            //Console.ReadLine();
 
-            Console.Write("1 ci reqem daxil edin :");
-            int firstNumMinus = Int32.Parse(Console.ReadLine());
+            ////Cixma emeliyyati(-1)
 
-            Console.Write("2 ci reqem daxil edin :");
-            int secondNumMinus = Int32.Parse(Console.ReadLine());
+            //Console.Write("1 ci reqem daxil edin :");
+            //int firstNumMinus = Int32.Parse(Console.ReadLine());
 
-            Console.Write("3 cu reqem daxil edin :");
-            int thirdNumMinus = Int32.Parse(Console.ReadLine());
+            //Console.Write("2 ci reqem daxil edin :");
+            //int secondNumMinus = Int32.Parse(Console.ReadLine());
 
-            Console.Write("4 cu reqem daxil edin :");
-            int forthNumMinus = Int32.Parse(Console.ReadLine());
+            //Console.Write("3 cu reqem daxil edin :");
+            //int thirdNumMinus = Int32.Parse(Console.ReadLine());
 
-            Console.Write("5 ci reqem daxil edin :");
-            int fifthNumMinus = Int32.Parse(Console.ReadLine());
+            //Console.Write("4 cu reqem daxil edin :");
+            //int forthNumMinus = Int32.Parse(Console.ReadLine());
 
-            Console.Write("6 ci reqem daxil edin :");
-            int sixthNumMinus = Int32.Parse(Console.ReadLine());
+            //Console.Write("5 ci reqem daxil edin :");
+            //int fifthNumMinus = Int32.Parse(Console.ReadLine());
 
-            Console.Write("7 ci reqem daxil edin: ");
-            int seventhNumMinus = Int32.Parse(Console.ReadLine());
+            //Console.Write("6 ci reqem daxil edin :");
+            //int sixthNumMinus = Int32.Parse(Console.ReadLine());
 
-            Console.Write("8 ci reqem daxil edin: ");
-            int eighthNumMinus = Int32.Parse(Console.ReadLine());
+            //Console.Write("7 ci reqem daxil edin: ");
+            //int seventhNumMinus = Int32.Parse(Console.ReadLine());
 
-            Console.Write("9 cu reqem daxil edin: ");
-            int ninethNumMinus = Int32.Parse(Console.ReadLine());
+            //Console.Write("8 ci reqem daxil edin: ");
+            //int eighthNumMinus = Int32.Parse(Console.ReadLine());
 
-            Console.Write("10 cu reqem daxil edin: ");
-            int tenthNumMinus = Int32.Parse(Console.ReadLine());
+            //Console.Write("9 cu reqem daxil edin: ");
+            //int ninethNumMinus = Int32.Parse(Console.ReadLine());
 
-            int sumMinusResult = firstNumMinus - secondNumMinus - thirdNumMinus -
-                                 forthNumMinus - fifthNumMinus - sixthNumMinus -
-                                 seventhNumMinus - eighthNumMinus - ninethNumMinus -
-                                 tenthNumMinus - 1;
+            //Console.Write("10 cu reqem daxil edin: ");
+            //int tenthNumMinus = Int32.Parse(Console.ReadLine());
 
-            Console.Write(sumMinusResult);
-            Console.ReadLine();
+            //int sumMinusResult = firstNumMinus - secondNumMinus - thirdNumMinus -
+            //                     forthNumMinus - fifthNumMinus - sixthNumMinus -
+            //                     seventhNumMinus - eighthNumMinus - ninethNumMinus -
+            //                     tenthNumMinus - 1;
 
-            //Bolme Emeliyyati(/20);
+            //Console.Write(sumMinusResult);
+            //Console.ReadLine();
 
-            Console.Write("1 ci reqem daxil edin: ");
-            double firstDvd = double.Parse(Console.ReadLine());
+            ////Bolme Emeliyyati(/20);
 
-            Console.Write("2 ci reqem daxil edin: ");
-            double secondDvd = double.Parse(Console.ReadLine());
+            //Console.Write("1 ci reqem daxil edin: ");
+            //double firstDvd = double.Parse(Console.ReadLine());
 
-            Console.Write("3 cu reqem daxil edin: ");
-            double thirdDvd = double.Parse(Console.ReadLine());
+            //Console.Write("2 ci reqem daxil edin: ");
+            //double secondDvd = double.Parse(Console.ReadLine());
 
-            Console.Write("4 cu reqem daxil edin: ");
-            double fourthDvd = double.Parse(Console.ReadLine());
+            //Console.Write("3 cu reqem daxil edin: ");
+            //double thirdDvd = double.Parse(Console.ReadLine());
 
-            Console.Write("5 ci reqem daxil edin: ");
-            double fifthDvd = double.Parse(Console.ReadLine());
+            //Console.Write("4 cu reqem daxil edin: ");
+            //double fourthDvd = double.Parse(Console.ReadLine());
 
-            Console.Write("6 ci reqem daxil edin: ");
-            double sixthDvd = double.Parse(Console.ReadLine());
+            //Console.Write("5 ci reqem daxil edin: ");
+            //double fifthDvd = double.Parse(Console.ReadLine());
 
-            Console.Write("7 ci reqem daxil edin: ");
-            double seventhDvd = double.Parse(Console.ReadLine());
+            //Console.Write("6 ci reqem daxil edin: ");
+            //double sixthDvd = double.Parse(Console.ReadLine());
 
-            Console.Write("8 ci reqem daxil edin: ");
-            double eighthDvd = double.Parse(Console.ReadLine());
+            //Console.Write("7 ci reqem daxil edin: ");
+            //double seventhDvd = double.Parse(Console.ReadLine());
 
-            Console.Write("9 cu reqem daxil adin: ");
-            double ninethDvd = double.Parse(Console.ReadLine());
+            //Console.Write("8 ci reqem daxil edin: ");
+            //double eighthDvd = double.Parse(Console.ReadLine());
 
-            Console.Write("10 cu reqem daxil edin: ");
-            double tenthDvd = double.Parse(Console.ReadLine());
+            //Console.Write("9 cu reqem daxil adin: ");
+            //double ninethDvd = double.Parse(Console.ReadLine());
 
-            double resDvd = (firstDvd / secondDvd / thirdDvd /
-                            fourthDvd / fifthDvd / sixthDvd /
-                            seventhDvd / eighthDvd / ninethDvd /
-                            tenthDvd) / 20;
-            Console.WriteLine(resDvd);
-            Console.ReadLine();
+            //Console.Write("10 cu reqem daxil edin: ");
+            //double tenthDvd = double.Parse(Console.ReadLine());
+
+            //double resDvd = (firstDvd / secondDvd / thirdDvd /
+            //                fourthDvd / fifthDvd / sixthDvd /
+            //                seventhDvd / eighthDvd / ninethDvd /
+            //                tenthDvd) / 20;
+            //Console.WriteLine(resDvd);
+            //Console.ReadLine();
 
 
-            //Vurma Emeliyyati(*20)
-            Console.Write("1 ci reqem daxil edin: ");
-            long firstMul = long.Parse(Console.ReadLine());
+            ////Vurma Emeliyyati(*20)
+            //Console.Write("1 ci reqem daxil edin: ");
+            //long firstMul = long.Parse(Console.ReadLine());
 
-            Console.Write("2 ci reqem daxil edin: ");
-            long secondMul = long.Parse(Console.ReadLine());
-            long res = firstMul * secondMul * 20;
+            //Console.Write("2 ci reqem daxil edin: ");
+            //long secondMul = long.Parse(Console.ReadLine());
+            //long res = firstMul * secondMul * 20;
 
-            Console.Write("3 cu reqem daxil edin: ");
-            long thirdMul = long.Parse(Console.ReadLine());
+            //Console.Write("3 cu reqem daxil edin: ");
+            //long thirdMul = long.Parse(Console.ReadLine());
 
-            Console.Write("4 cu reqem daxil edin: ");
-            long fourthMul = long.Parse(Console.ReadLine());
+            //Console.Write("4 cu reqem daxil edin: ");
+            //long fourthMul = long.Parse(Console.ReadLine());
 
-            Console.Write("5 ci reqem daxil edin: ");
-            long fifthMul = long.Parse(Console.ReadLine());
+            //Console.Write("5 ci reqem daxil edin: ");
+            //long fifthMul = long.Parse(Console.ReadLine());
 
-            Console.Write("6 ci reqem daxil edin: ");
-            long sixthMul = long.Parse(Console.ReadLine());
+            //Console.Write("6 ci reqem daxil edin: ");
+            //long sixthMul = long.Parse(Console.ReadLine());
 
-            Console.Write("7 ci reqem daxil edin: ");
-            long seventhMul = long.Parse(Console.ReadLine());
+            //Console.Write("7 ci reqem daxil edin: ");
+            //long seventhMul = long.Parse(Console.ReadLine());
 
-            Console.Write("8 ci reqem daxil edin: ");
-            long eighthMul = long.Parse(Console.ReadLine());
+            //Console.Write("8 ci reqem daxil edin: ");
+            //long eighthMul = long.Parse(Console.ReadLine());
 
-            Console.Write("9 cu reqem daxil edin: ");
-            long ninethMul = long.Parse(Console.ReadLine());
+            //Console.Write("9 cu reqem daxil edin: ");
+            //long ninethMul = long.Parse(Console.ReadLine());
 
-            Console.Write("10 cu reqem daxil edin: ");
-            long tenthMul = long.Parse(Console.ReadLine());
+            //Console.Write("10 cu reqem daxil edin: ");
+            //long tenthMul = long.Parse(Console.ReadLine());
 
-            long resMul = firstMul * secondMul * thirdMul *
-                           fourthMul * fifthMul * sixthMul *
-                           seventhMul * eighthMul * ninethMul *
-                           tenthMul * 20;
+            //long resMul = firstMul * secondMul * thirdMul *
+            //               fourthMul * fifthMul * sixthMul *
+            //               seventhMul * eighthMul * ninethMul *
+            //               tenthMul * 20;
 
-            Console.WriteLine(resMul);
-            Console.ReadLine();
+            //Console.WriteLine(resMul);
+            //Console.ReadLine();
 
 
             #endregion
@@ -313,29 +302,29 @@ namespace VariablesAndDataTypes_Part3_
             //İstifadəçidən qeyd etdiyim tiplərdə dəyər alıb onları uyğun tipdə dəyişənlərə çevirəcəksiz.
             // bool, string, short, long, int, char, datetime.
 
-            Console.Write("Adinizi qeyd edin: ");
-            string userName = Console.ReadLine();
+            //Console.Write("Adinizi qeyd edin: ");
+            //string userName = Console.ReadLine();
 
-            Console.Write("1km nece metrdir?: ");
-            int userAge = int.Parse(Console.ReadLine());
+            //Console.Write("1km nece metrdir?: ");
+            //int userAge = int.Parse(Console.ReadLine());
 
-            Console.Write("Dogum tarixinizi qeyd edin: ");
-            DateTime userBirth = DateTime.Parse(Console.ReadLine());
+            //Console.Write("Dogum tarixinizi qeyd edin: ");
+            //DateTime userBirth = DateTime.Parse(Console.ReadLine());
 
-            Console.Write("Cins K ve ya Q :");
-            char userGender = char.Parse(Console.ReadLine());
+            //Console.Write("Cins K ve ya Q :");
+            //char userGender = char.Parse(Console.ReadLine());
 
-            Console.Write("10 milyardi reqemlerle yazin: ");
-            long writeLongNumber = long.Parse(Console.ReadLine());
+            //Console.Write("10 milyardi reqemlerle yazin: ");
+            //long writeLongNumber = long.Parse(Console.ReadLine());
 
 
-            Console.WriteLine("Heftenin nece gunu var ?");
-            string daysOfWeek = "7";
-            int resultOfAnswer;
-            bool succesVal = int.TryParse(daysOfWeek, out resultOfAnswer);
+            //Console.WriteLine("Heftenin nece gunu var ?");
+            //string daysOfWeek = "7";
+            //int resultOfAnswer;
+            //bool succesVal = int.TryParse(daysOfWeek, out resultOfAnswer);
 
-            Console.Write("15000 * 2 = ?");
-            short userAnswer = short.Parse(Console.ReadLine());
+            //Console.Write("15000 * 2 = ?");
+            //short userAnswer = short.Parse(Console.ReadLine());
 
             #endregion
 

@@ -23,64 +23,64 @@ namespace ConditionalStatement
              3 dəfə səhv daxil etdikdən sonra "Hesab bloklandi" yazsın.
           */
 
-            Console.Write("Username :");
-            var username = Console.ReadLine();
+            //Console.Write("Username :");
+            //var username = Console.ReadLine();
 
-            Console.Write("Password :");
-            var password = Console.ReadLine();
+            //Console.Write("Password :");
+            //var password = Console.ReadLine();
 
-            Console.WriteLine("username :" + username);
-            Console.WriteLine("password: " + password);
+            //Console.WriteLine("username :" + username);
+            //Console.WriteLine("password: " + password);
 
-            Console.Clear();
+            //Console.Clear();
 
-            Console.Write("Username :");
-            var enterUsname = Console.ReadLine();
+            //Console.Write("Username :");
+            //var enterUsname = Console.ReadLine();
 
-            Console.Write("Password :");
-            var enterPassword = Console.ReadLine();
-            Console.Clear();
+            //Console.Write("Password :");
+            //var enterPassword = Console.ReadLine();
+            //Console.Clear();
 
-            if (username == enterUsname && password == enterPassword)
-            {
-                Console.WriteLine("Sisteme daxil olundu");
-            }
-            else
-            {
-                Console.WriteLine("Yeniden username ve passwordu daxil edin");
-                Console.Write("Username :");
-                var wrongName = Console.ReadLine();
+            //if (username == enterUsname && password == enterPassword)
+            //{
+            //    Console.WriteLine("Sisteme daxil olundu");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Yeniden username ve passwordu daxil edin");
+            //    Console.Write("Username :");
+            //    var wrongName = Console.ReadLine();
 
-                Console.Write("Password :");
-                var wrongPassword = Console.ReadLine();
-                Console.Clear();
+            //    Console.Write("Password :");
+            //    var wrongPassword = Console.ReadLine();
+            //    Console.Clear();
 
-                if (wrongName == username && wrongPassword == password)
-                {
-                    Console.WriteLine("Sisteme daxil olundu");
-                }
-                else
-                {
-                    Console.WriteLine("Diqqet !Eger siz yene username ve passwordu yalnis daxil etseniz," +
-                        "hesabiniz bloklanacaq !");
-                    Console.Write("Username :");
-                    var wrongNameSec = Console.ReadLine();
+            //    if (wrongName == username && wrongPassword == password)
+            //    {
+            //        Console.WriteLine("Sisteme daxil olundu");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Diqqet !Eger siz yene username ve passwordu yalnis daxil etseniz," +
+            //            "hesabiniz bloklanacaq !");
+            //        Console.Write("Username :");
+            //        var wrongNameSec = Console.ReadLine();
 
-                    Console.Write("Password :");
-                    var wrongPasswordSec = Console.ReadLine();
+            //        Console.Write("Password :");
+            //        var wrongPasswordSec = Console.ReadLine();
 
-                    if (wrongNameSec == username && wrongPasswordSec == password)
-                    {
-                        Console.WriteLine("Sisteme daxil olundu");
-                    }
-                    else
-                    {
-                        Console.Write("Hesab bloklandi");
-                    }
+            //        if (wrongNameSec == username && wrongPasswordSec == password)
+            //        {
+            //            Console.WriteLine("Sisteme daxil olundu");
+            //        }
+            //        else
+            //        {
+            //            Console.Write("Hesab bloklandi");
+            //        }
 
-                }
-            }
-            Console.ReadLine();
+            //    }
+            //}
+            //Console.ReadLine();
         #endregion
 
            #region Homework2

@@ -51,14 +51,14 @@ namespace Methods
 
             Student studentInstance = new Student();
 
-            double avrgPoint= studentInstance.calcAverage(pointOne, pointTwo, pointThree);
+            double avrgPoint= studentInstance.CalcAverage(pointOne, pointTwo, pointThree);
                   
             Console.WriteLine("Ortalama qiymeti : " +  avrgPoint);
 
-            studentInstance.calcAverage(name, surname);
+            studentInstance.CalcAverage(name, surname);
             Console.WriteLine("Telebenin adi: {0} soyadi: {1}", name, surname);
 
-            studentInstance.rateAverage();
+            studentInstance.RateAverage(avrgPoint);
 
             Console.ReadLine();
             #endregion
