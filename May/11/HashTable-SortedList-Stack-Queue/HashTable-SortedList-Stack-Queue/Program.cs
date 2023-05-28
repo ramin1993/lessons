@@ -71,148 +71,149 @@ namespace HashTable_SortedList_Stack_Queue
              5 - Element sil
              6 - Exit*/
 
-            //Console.WriteLine("1 - Element elave et");
-            //Console.WriteLine("2 - Elementleri goster");
-            //Console.WriteLine("3 - Elementleri axtar");
-            //Console.WriteLine("4 - Elementleri editle");
-            //Console.WriteLine("5 - Elementleri sil");
-            //Console.WriteLine("6 - Exit");
-
-            
-            //Console.WriteLine("Emeliyyat novunu secin");
-            //var operation = Console.ReadLine();
-
-            //Hashtable ntb = new Hashtable();
-
-            //string elementValue;
-            //int elementCount = 1;
+            Console.WriteLine("1 - Element elave et");
+            Console.WriteLine("2 - Elementleri goster");
+            Console.WriteLine("3 - Elementleri axtar");
+            Console.WriteLine("4 - Elementleri editle");
+            Console.WriteLine("5 - Elementleri sil");
+            Console.WriteLine("6 - Exit");
 
 
-            //switch (operation)
-            //{
-            //    case "1":
+            Console.WriteLine("Emeliyyat novunu secin");
+            var operation = Console.ReadLine();
 
-            //        do
-            //        {
-            //            Console.Clear();
-            //            Console.WriteLine("Zehmet olmasa daxil etmek istediyiniz elementi yazin.");
-            //            elementValue = Console.ReadLine();
+            Hashtable ntb = new Hashtable();
 
-                        
-            //            string key = $"{elementCount}. Element";
-            //            elementCount++;
-
-                        
-            //            ntb.Add(key, elementValue);
-
-            //            Console.WriteLine("Yeni element daxil etmek isteyirsiz? H/Y?");
-            //        } while (Console.ReadLine().ToUpper() == "H");
+            string elementValue;
+            int elementCount = 1;
 
 
-            //        goto case "2";
-            //    case "2":
-                    
-            //        foreach (DictionaryEntry item in ntb)
-            //        {
-                        
-            //            Console.WriteLine(item.Key + ":"+ item.Value);
-            //        }
-            //        /*
-            //          foreach (DictionaryEntry item in ntb)
-            //          {
-            //              Console.WriteLine("{0} - {1}", item.Key, item.Value);
-            //          }
-            //         */
-            //        Console.WriteLine("Davam etmek ucun enter duymesine basin.");
-            //        Console.ReadKey();
-            //        goto case "3";
-            //    case "3":
-                    
-            //        Console.WriteLine("Axtarmaq istediyiniz elementi daxil edin :");
-            //        string searchWord = Convert.ToString(Console.ReadLine());
-            //        if (ntb.ContainsValue(searchWord)) {
+            switch (operation)
+            {
+                case "1":
+
+                    do
+                    {
+                        Console.Clear();
+                        Console.WriteLine("Zehmet olmasa daxil etmek istediyiniz elementi yazin.");
+                        elementValue = Console.ReadLine();
 
 
-            //            DictionaryEntry entry = new DictionaryEntry(elementCount,searchWord);
+                        string key = $"{elementCount}. Element";
+                        elementCount++;
 
-            //            Console.WriteLine("Element tapildi :" + " " + "{0} - {1}",entry.Key, entry.Value);
 
-               
-            //        }
-            //        else
-            //        {
-            //            Console.WriteLine("Axtardiginiz element tapilmadi !");
-            //        }
-            //        goto case "4";
+                        ntb.Add(key, elementValue);
 
-            //    case "4":
-            //        Console.WriteLine("Editlemek istediyiniz elementi yazin");
-            //        object editWord = (object)Console.ReadLine();
-            //        if (ntb.ContainsValue(editWord))
-            //        {
-            //            Console.WriteLine("Elementi ne ile evezlemek isteyirsiniz?");
-            //            string newEditWord = Console.ReadLine();
+                        Console.WriteLine("Yeni element daxil etmek isteyirsiz? H/Y?");
+                    } while (Console.ReadLine().ToUpper() == "H");
 
-                       
-            //            string oldKey = "";
-            //            foreach (DictionaryEntry item in ntb)
-            //            {
-            //                if (item.Value.Equals(editWord))
-            //                {
-            //                    oldKey = (string)item.Key;
-            //                    break;
-            //                }
-            //            }
 
-                        
-            //            ntb[oldKey] = newEditWord;
+                    goto case "2";
+                case "2":
 
-                        
-            //            foreach (DictionaryEntry item in ntb)
-            //            {
-            //                Console.WriteLine("{0} - {1}", item.Key, item.Value);
-            //            }
+                    foreach (DictionaryEntry item in ntb)
+                    {
 
-            //        }
-            //        else
-            //        {
-            //            Console.WriteLine("Axtardiginiz element tapilmadi :(");
-            //        }
-            //        goto case "5";
-            //    case "5":
-                    
-            //        Console.WriteLine("Butun elementleri silmek isteyirsiniz? H/Y");
-            //        string clrword = Convert.ToString(Console.ReadLine());
-            //        if (clrword.ToUpper() == "H")
-            //        {
-            //            ntb.Clear();
-            //            Console.WriteLine("Butun elementler silindi!");
-                        
-            //        }
-            //        else if (clrword.ToUpper() == "Y")
-            //        {
-            //            goto case "6";
-            //        }
-            //        else 
-            //        {
-            //            Console.WriteLine("Silmek istediyiniz elementi yazin.");
-            //            if (htb.ContainsValue(clrword))
-            //            {
-            //                ntb.Remove(clrword);
-            //                Console.WriteLine("Element silindi!");
-            //            }
-            //            else
-            //            {
-            //                Console.WriteLine("Silmek istediyiniz element sistemde yoxdur");
-            //            }
-            //        }
-                    
+                        Console.WriteLine(item.Key + ":" + item.Value);
+                    }
+                    /*
+                      foreach (DictionaryEntry item in ntb)
+                      {
+                          Console.WriteLine("{0} - {1}", item.Key, item.Value);
+                      }
+                     */
+                    Console.WriteLine("Davam etmek ucun enter duymesine basin.");
+                    Console.ReadKey();
+                    goto case "3";
+                case "3":
 
-            //        break;
-            //    case "6":
-            //        Console.WriteLine("Menyudan cixmaq ucun enter duymesine sixin");
-            //        break;
-            //}
+                    Console.WriteLine("Axtarmaq istediyiniz elementi daxil edin :");
+                    string searchWord = Convert.ToString(Console.ReadLine());
+                    if (ntb.ContainsValue(searchWord))
+                    {
+
+
+                        DictionaryEntry entry = new DictionaryEntry(elementCount, searchWord);
+
+                        Console.WriteLine("Element tapildi :" + " " + "{0} - {1}", entry.Key, entry.Value);
+
+
+                    }
+                    else
+                    {
+                        Console.WriteLine("Axtardiginiz element tapilmadi !");
+                    }
+                    goto case "4";
+
+                case "4":
+                    Console.WriteLine("Editlemek istediyiniz elementi yazin");
+                    object editWord = (object)Console.ReadLine();
+                    if (ntb.ContainsValue(editWord))
+                    {
+                        Console.WriteLine("Elementi ne ile evezlemek isteyirsiniz?");
+                        string newEditWord = Console.ReadLine();
+
+
+                        string oldKey = "";
+                        foreach (DictionaryEntry item in ntb)
+                        {
+                            if (item.Value.Equals(editWord))
+                            {
+                                oldKey = (string)item.Key;
+                                break;
+                            }
+                        }
+
+
+                        ntb[oldKey] = newEditWord;
+
+
+                        foreach (DictionaryEntry item in ntb)
+                        {
+                            Console.WriteLine("{0} - {1}", item.Key, item.Value);
+                        }
+
+                    }
+                    else
+                    {
+                        Console.WriteLine("Axtardiginiz element tapilmadi :(");
+                    }
+                    goto case "5";
+                case "5":
+
+                    Console.WriteLine("Butun elementleri silmek isteyirsiniz? H/Y");
+                    string clrword = Convert.ToString(Console.ReadLine());
+                    if (clrword.ToUpper() == "H")
+                    {
+                        ntb.Clear();
+                        Console.WriteLine("Butun elementler silindi!");
+
+                    }
+                    else if (clrword.ToUpper() == "Y")
+                    {
+                        goto case "6";
+                    }
+                    else
+                    {
+                        Console.WriteLine("Silmek istediyiniz elementi yazin.");
+                        if (ntb.ContainsValue(clrword))
+                        {
+                            ntb.Remove(clrword);
+                            Console.WriteLine("Element silindi!");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Silmek istediyiniz element sistemde yoxdur");
+                        }
+                    }
+
+
+                    break;
+                case "6":
+                    Console.WriteLine("Menyudan cixmaq ucun enter duymesine sixin");
+                    break;
+            }
             #endregion
         }
     }
