@@ -15,12 +15,21 @@ namespace Encapsulation
           
         
           public string Name
-          {
-              
+          {            
               set
               {
-                  name = value;
-                  email = "ramin@mail.ru";
+                this.name = value;
+                if (name != value)
+                {
+                    this.email = null;
+                    this.surname = null;
+                    this.Surname = null;
+                }
+                else
+                {
+                    
+                    this.email = "ramin@mail.ru";
+                }
               }
             get { return name; }
         }
@@ -29,13 +38,18 @@ namespace Encapsulation
           {           
               set
               {
-                  surname = value;
-                  email = value;
-                  if (surname != null)
+                this.surname = value;
+
+                if (surname != value)
                   {
-                     email = "ramin@mail.ru";
-                     name = null;                   
-                  }
+                    this.email = null;
+                     this.name = null;
+                    this.Surname = value;
+                }
+                {
+                    
+                    this.email = "ramin@mail.ru";
+                }
               }
             get { return surname; }
         }

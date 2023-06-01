@@ -48,12 +48,14 @@ namespace Encapsulation
              */
             Student student1 = new Student();
             student1.Surname = "Suleymanov";
+            student1.Name = "Ramin";
             Console.WriteLine(student1.Name);      
             Console.WriteLine(student1.Surname);
             Console.WriteLine(student1.Email);     
 
             Student student2 = new Student();
             student2.Name = "Ramin";
+            student2.Surname = "Suleymanov";
             Console.WriteLine(student2.Name);      
             Console.WriteLine(student2.Surname);   
             Console.WriteLine(student2.Email);     
