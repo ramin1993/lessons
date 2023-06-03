@@ -126,31 +126,8 @@ namespace Static
         {
             set
             {
-                if (ValidationPassword(value))
-                {
-                    if (string.IsNullOrWhiteSpace(value))
-                    {
-                        Console.WriteLine("Password bolmesi bos ola bilmez.");
-                    }
-                    else if (value.Length < 9 && value.Length>20)
-                    {
-                        Console.WriteLine("Sifre 8 simvoldan az olmalidir.");
-                    }
-                    else if (!value.Any(char.IsUpper))
-                    {
-                        Console.WriteLine("Sifrede en az 1 boyuk herfden istifade etmelisiz.");
-                    }
-                    else if (!value.Any(char.IsDigit))
-                    {
-                        Console.WriteLine("Sifrede en az 1 reqemden istifade edin.");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Sifre duzgun teyin olunub.");
-                    }
-                    return;
-                }
-                this.Password = value;
+                ValidationPassword(value);
+                Password = value;
                 
             }
             get
@@ -162,11 +139,31 @@ namespace Static
         public bool ValidationPassword(string checkPassword)
         {
 
-            if (arrList.Contains(checkPassword))
+            if (ValidationPassword(checkPassword))
             {
-                return false;
+                if (string.IsNullOrWhiteSpace(checkPassword))
+                {
+                    Console.WriteLine("Password bolmesi bos ola bilmez.");
+                }
+                else if (checkPassword.Length < 9 && checkPassword.Length > 20)
+                {
+                    Console.WriteLine("Sifre 8 simvoldan az olmalidir.");
+                }
+                else if (!checkPassword.Any(char.IsUpper))
+                {
+                    Console.WriteLine("Sifrede en az 1 boyuk herfden istifade etmelisiz.");
+                }
+                else if (!checkPassword.Any(char.IsDigit))
+                {
+                    Console.WriteLine("Sifrede en az 1 reqemden istifade edin.");
+                }
+                else
+                {
+                    Console.WriteLine("Sifre duzgun teyin olunub.");
+                }
+                return true;
             }
-            return true;
+            return false;
         }
 
         public void Add(Customer customer)

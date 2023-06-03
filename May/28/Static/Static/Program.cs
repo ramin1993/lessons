@@ -57,7 +57,7 @@ namespace Static
 
             Customer.NewCustomer(customer2);
 
-            Customer customer3 = new Customer()
+            lCustomer customer3 = new Customer()
             {
                 Id = 3,
                 Name = "",
