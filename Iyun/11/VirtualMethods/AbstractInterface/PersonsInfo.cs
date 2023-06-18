@@ -10,6 +10,7 @@ namespace AbstractInterface
     {
         public abstract string Name { get; set; }
         public abstract string Surname { get; set; }
+        public int Id { get; set; }
 
         public abstract void Specialist();
         public abstract void Age(int a);

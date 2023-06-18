@@ -10,7 +10,7 @@ namespace VirtualMethods
     {
         public override void DoCalculation(double a, double b)
         {
-            Console.WriteLine("Cavab:" +( a - b));
+            Console.WriteLine("Cavab:" + (a - b));
         }
 
     }

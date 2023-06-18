@@ -37,7 +37,7 @@ namespace VirtualMethods
             child.VirtualMethodInBaseClass("This is ");
              }
             }
-            //Output:  This us overriden Method result.
+            //Output:  This is us overriden Method result.
 
 
             -------------------------------------------------------------------------
@@ -111,10 +111,13 @@ namespace VirtualMethods
 
             MultiOperation calcMulti = new MultiOperation();
             calcMulti.DoCalculation(4, 5);
+
             MinusOperation calcMin = new MinusOperation();
             calcMin.DoCalculation(100, 32);
+
             PlusOperation calcPlus = new PlusOperation();
             calcPlus.DoCalculation(10, 23);
+
             DivideOperation calcDvd = new DivideOperation();
             calcDvd.DoCalculation(10, 0);
             
